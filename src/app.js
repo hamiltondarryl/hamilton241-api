@@ -4,6 +4,7 @@ const port =  process.env.PORT || 3000 ;
 const notificationRouter = require('../src/routes/NotificationsRouter');
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use('/notifications', notificationRouter);
 
 // Page 404

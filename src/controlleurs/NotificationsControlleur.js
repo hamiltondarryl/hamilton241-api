@@ -3,6 +3,7 @@ const serviceNotification = require('../helpers/services');
 // Fonction d'envoie des notifications à tous les utilisateur
 exports.touslesutilisateurs = (req, res )=>{
 
+    res.header("Access-Control-Allow-Origin", "*");
 
     res.send("ok gar")
 
