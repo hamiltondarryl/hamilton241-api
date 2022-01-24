@@ -5,7 +5,7 @@ A- Notifications push avec OneSignal pour vos applications mobiles
 
     Je mets à disposition de tous ce petit service qui vous permet d'envoyer des notifications
     push en diffusion  ( à tous les utilisateurs de votre plateforme) et à des utilisateurs
-    specifiques en fonction d'un indentifiantunique de chaque utilisateur (un token );
+    specifiques en fonction d'un indentifiant unique de chaque utilisateur (un token );
 
 B- Envoie d'Email avec SendGRid
 
