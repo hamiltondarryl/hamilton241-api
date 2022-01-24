@@ -3,6 +3,10 @@ const serviceNotification = require('../helpers/services');
 // Fonction d'envoie des notifications à tous les utilisateur
 exports.touslesutilisateurs = (req, res )=>{
 
+
+    res.send("ok gar")
+
+    /*
     let {key, appid , contenu } = req.body ;
 
     var message = {
@@ -29,7 +33,7 @@ exports.touslesutilisateurs = (req, res )=>{
         }
       
     });
-
+*/
 
 
 }
