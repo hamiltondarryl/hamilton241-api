@@ -4,6 +4,7 @@
   "description": "Une API pour faciliter la vie des développeurs pour l'envoie des emails, des notifications push",
   "main": "./src/app.js",
   "scripts": {
+    "start" : "nodemon ./src/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -23,6 +24,8 @@
   },
   "homepage": "https://github.com/hamiltondarryl/hamilton241-api#readme",
   "dependencies": {
-    "express": "^4.17.2"
+    "@sendgrid/mail": "^7.6.0",
+    "express": "^4.17.2",
+    "nodemon": "^2.0.15"
   }
 }
