@@ -1,0 +1,28 @@
+{
+  "name": "hamilton241-api",
+  "version": "1.0.0",
+  "description": "Une API pour faciliter la vie des développeurs pour l'envoie des emails, des notifications push",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamiltondarryl/hamilton241-api.git"
+  },
+  "keywords": [
+    "Hamilton",
+    "Darryl",
+    "développeur",
+    "fullstack"
+  ],
+  "author": "Hamilton Darryl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hamiltondarryl/hamilton241-api/issues"
+  },
+  "homepage": "https://github.com/hamiltondarryl/hamilton241-api#readme",
+  "dependencies": {
+    "express": "^4.17.2"
+  }
+}
