@@ -13,9 +13,9 @@ exports.touslesutilisateurs = (req, res )=>{
         included_segments : ["All"],
         content_available : true,
         small_icon: "ic_notification_icon",
-        big_picture : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
+        big_picture : 'https://img.cuisineaz.com/680x357/2016/07/25/i18826-tbikha-aubergine.jpg',
         chrome_web_image : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
-        huawei_big_picture : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
+        huawei_big_picture : 'https://www.mutuellebleue.fr/conseils-sante-bien-etre/wp-content/uploads/sites/2/2020/07/des-plats-%C3%A9quiliobr%C3%A9s-et-color%C3%A9s.jpg',
         data : {
             "PushTitle" : "Custom notifications"
         }
