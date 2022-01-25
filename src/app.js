@@ -1,8 +1,12 @@
 const express = require('express');
 const app = express();
+var cors = require('cors');
+
+// use it before all route definitions
 const port =  process.env.PORT || 3000 ;
 const notificationRouter = require('../src/routes/NotificationsRouter');
 
+app.use(cors({origin: '*'}));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use('/notifications', notificationRouter);
