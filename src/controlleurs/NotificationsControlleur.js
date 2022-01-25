@@ -8,7 +8,7 @@ exports.touslesutilisateurs = (req, res )=>{
 
     var message = {
         app_id : appid,
-        headings : {"en" : "test heading"},
+        headings : {en : "test heading"},
         contents : { en: contenu },
         included_segments : ["All"],
         content_available : true,
