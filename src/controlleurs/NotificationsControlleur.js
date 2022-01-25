@@ -14,6 +14,8 @@ exports.touslesutilisateurs = (req, res )=>{
         content_available : true,
         small_icon: "ic_notification_icon",
         big_picture : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
+        chrome_web_image : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
+        huawei_big_picture : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
         data : {
             "PushTitle" : "Custom notifications"
         }
