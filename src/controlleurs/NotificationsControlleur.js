@@ -4,11 +4,11 @@ const serviceNotification = require('../helpers/services');
 exports.touslesutilisateurs = (req, res )=>{
 
 
-    let { key, appid , contenu } = req.body ;
+    let { key, appid , titre , contenu  } = req.body ;
 
     var message = {
         app_id : appid,
-        headings : {en : "test heading"},
+        headings : {en : titre },
         contents : { en: contenu },
         included_segments : ["All"],
         content_available : true,
