@@ -4,7 +4,7 @@ const serviceNotification = require('../helpers/services');
 exports.touslesutilisateurs = (req, res )=>{
 
 
-    let {key, appid , contenu } = req.body ;
+    let { key, appid , contenu } = req.body ;
 
     var message = {
         app_id : appid,
@@ -13,7 +13,7 @@ exports.touslesutilisateurs = (req, res )=>{
         included_segments : ["All"],
         content_available : true,
         small_icon: "ic_notification_icon",
-        chrome_web_image : 'https://cdn4.iconfinder.com/data/icons/iconsimple-logotypes/512/github-512.png',
+        big_picture : 'https://serveur-sodepsi.com/CRYSTAL/assets/img/uploads/plat1.jpg',
         data : {
             "PushTitle" : "Custom notifications"
         }
