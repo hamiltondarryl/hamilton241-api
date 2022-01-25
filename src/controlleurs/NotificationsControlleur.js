@@ -15,7 +15,7 @@ exports.touslesutilisateurs = (req, res )=>{
     // to the API (e.g. in case you use sessions)
     res.setHeader('Access-Control-Allow-Credentials', true);
 
-    res.send("ok gar")
+    res.json({response : "ok gar"})
 
     /*
     let {key, appid , contenu } = req.body ;
