@@ -3,12 +3,7 @@ const serviceNotification = require('../helpers/services');
 // Fonction d'envoie des notifications à tous les utilisateur
 exports.touslesutilisateurs = (req, res )=>{
 
-    res.json({response : true })
-
-    /*
-
-    https://sobraga.net/wp-content/uploads/2020/02/cover-job2.jpg
-
+    
     let {key, appid , contenu } = req.body ;
 
     var message = {
@@ -35,7 +30,7 @@ exports.touslesutilisateurs = (req, res )=>{
         }
       
     });
-*/
+
 
 
 }
